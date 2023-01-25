@@ -13,7 +13,8 @@ This will prompt the user to enter the first and second URLs, which will be comp
 
 2. With one argument:
 
-```./<filename>.sh <URL>```
+`./<filename>.sh <URL>`
+  
 This will prompt the user to enter the second URL, and use the provided URL as the first.
 
 3. With two arguments:
