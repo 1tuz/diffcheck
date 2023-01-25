@@ -1,5 +1,7 @@
 #!/bin/bash
 
+trap 'echo "Interrupted. Exiting..."; exit 1' INT
+
 if [ $# -eq 1 ]
 then
     read -p "Enter the second URL: " url2
